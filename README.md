@@ -48,7 +48,9 @@ For the food images in our project, we collected data from the internet using an
 
 Additionally, for other food images, we sourced them from Kaggle's [Food Images (Food-101)](https://www.kaggle.com/datasets/kmader/food41) dataset and the [Indonesian Food](https://www.kaggle.com/datasets/theresalusiana/indonesian-food) dataset. Afterward, we refined the class names to align with foods commonly consumed in Indonesia. This process involved selecting food categories that reflect popular Indonesian cuisine. In total, we used 53,000 images, which were divided into 53 classes. The dataset was then split into training, validation, and test sets with a distribution of 80% for training, 10% for validation, and 10% for testing. As a result, the training set contains 800 images per class, the validation set contains 1000 images, and the test set contains 100 images per class.
 
-![Distribusi Data Pelatihan](assets/Training Distribution.png) ![Distribusi Data Validasi](assets/Validation Distribution.png)
+![Distribusi Data Pelatihan](assets/Training Distribution.png)
+![Distribusi Data Validasi](assets/Validation Distribution.png)
+
 
 ### Nutrition CSV
 The text data, which contains nutritional information, is stored in a CSV file and was obtained from the FatSecret API platform. Access to the API is granted using a consumer key and consumer secret, which are provided after registering on the FatSecret platform. To retrieve the nutritional data, we used Google Colab as the environment and Python as the programming language. First, we entered the food name in the food search, obtained its corresponding ID, and then used this ID to fetch the nutritional data, which was subsequently saved in a file named 'nutrition.csv'. The data then went through a preprocessing stage, and the final processed data was saved in 'clean_data.csv'. The features contained in the cleaned dataset include:
