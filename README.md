@@ -48,8 +48,8 @@ For the food images in our project, we collected data from the internet using an
 
 Additionally, for other food images, we sourced them from Kaggle's [Food Images (Food-101)](https://www.kaggle.com/datasets/kmader/food41) dataset and the [Indonesian Food](https://www.kaggle.com/datasets/theresalusiana/indonesian-food) dataset. Afterward, we refined the class names to align with foods commonly consumed in Indonesia. This process involved selecting food categories that reflect popular Indonesian cuisine. In total, we used 53,000 images, which were divided into 53 classes. The dataset was then split into training, validation, and test sets with a distribution of 80% for training, 10% for validation, and 10% for testing. As a result, the training set contains 800 images per class, the validation set contains 1000 images, and the test set contains 100 images per class.
 
-![Distribusi Data Pelatihan](assets/Training Distribution.png)
-![Distribusi Data Validasi](assets/Validation Distribution.png)
+![Distribusi Data Pelatihan](/assets/Training%20Distribution.png)
+![Distribusi Data Validasi](/assets/Validation%20Distribution.png)
 
 
 ### Nutrition CSV
