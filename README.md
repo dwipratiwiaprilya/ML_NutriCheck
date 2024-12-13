@@ -72,8 +72,4 @@ The text data, which contains nutritional information, is stored in a CSV file a
 | *Serving Size (grams)* | The weight of the serving size, measured in grams.                                              |
 
 ## Saved Model
-1. Saving the TensorFlow Model
-The trained model is saved in the TensorFlow SavedModel format, which includes the saved_model.pb file along with the variables and assets directories required for the inference process. The SavedModel folder can be used for cloud deployment, such as creating a model API to make it accessible to mobile applications via an API.
-
-2. Converting to TensorFlow Lite (TFLite) Format
-The saved model is then converted to the TensorFlow Lite (TFLite) format using the TensorFlow Lite Converter. The TFLite format is designed to be lightweight and efficient, making it ideal for running on devices with limited resources, such as mobile applications.
+The trained model is saved in the .h5 format, which consolidates the model's architecture, weights, and optimizer information into a single file. This format is commonly used for deployment on servers and integrates seamlessly with frameworks like Flask, enabling the creation of APIs to make the model accessible for various applications.
